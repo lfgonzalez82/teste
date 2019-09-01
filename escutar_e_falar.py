@@ -8,6 +8,7 @@ def cria_audio(audio):
 
 	if (audio == 'Maria Luiza'):
 		audio = audio + 'filha querida'
+		
 
 	tts = gTTS(audio,lang='pt-br')
 	#Salva o arquivo de audio
